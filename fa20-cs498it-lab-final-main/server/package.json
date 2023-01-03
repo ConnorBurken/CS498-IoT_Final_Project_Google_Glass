@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "sqlite3": "^5.0.0",
+    "sqlite3-promisify": "^1.0.1",
+    "sqlstring-sqlite": "^0.1.1",
+    "twilio": "^3.54.0"
+  }
+}
